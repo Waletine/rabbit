@@ -1,0 +1,56 @@
+@import "./reset.css";
+
+body {
+    margin-top: 80px;
+    background-color: green;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 3px solid hsl(120, 69%, 11%);
+    border-radius: 25px;
+    background-color: rgb(9, 152, 9);
+}
+
+.rabbit {
+    width: 200px;
+}
+.carrot {
+    width: 125px;
+}
+.start,
+.stop {
+    width: 150px;
+    height: 80px;
+    border: 3px solid rgb(5, 47, 5);
+    border-radius: 25px;
+    background-color: rgb(19, 80, 19);
+    color: white;
+    font-size: larger;
+}
+.score {
+    font-size: 40px;
+    color: white;
+}
+
+span {
+    border: 3px solid rgb(9, 52, 9);
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(19, 80, 19);
+
+}
